@@ -1,0 +1,21 @@
+##pom.xml
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+##JUnitSetupTest.java
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class JUnitSetupTest {
+
+    @Test
+    public void testJUnitSetup() {
+        assertEquals(10, 5 + 5);
+    }
+}
